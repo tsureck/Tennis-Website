@@ -1,11 +1,14 @@
 /* Add a black background color to the top navigation */
 
 body {
+  margin:0px;
+  font-size: larger;
   font-family: Helvetica, sans-serif;
-  background-image: url('img_girl.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url('images/Tennis-Kreism156.png'), url('images/logo-modified.png');
+  background-repeat: repeat-x, no-repeat;
+  background-attachment: scroll, scroll;
+  background-position: 0px 0px, 50px 300px;
+  /* background-size: cover; */
 }
 
 /* Navbar container */
@@ -13,6 +16,7 @@ body {
   overflow: hidden;
   background-color: rgb(53, 53, 53);
   font-family: Arial;
+  margin-top: 200px;
 }
 
 /* Links inside the navbar */
@@ -84,7 +88,51 @@ body {
 }
 
 .main {
-  margin-left: 180px;
-  margin-top: 80px;
+  margin-left: 400px;
+  margin-top: 40px;
   margin-right: 180px;
+}
+
+.main p {
+  padding-bottom: 10px;
+}
+
+.styled-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 25px 20px;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #3b3b3b;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 9px 15px;
+    width: 25px;
+}
+
+.styled-table th.firstElem,
+.styled-table td.firstElem {
+    padding: 9px 15px;
+    width: 475px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #ff1414;
 }
