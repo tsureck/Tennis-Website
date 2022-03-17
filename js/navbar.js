@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
+document.write(`
     <div class="navbar">
-        <a href="#home" class="active">Home</a>
+        <a href="index.html" class="active">Home</a>
         <a href="#news">News</a>
-        <a href="sites/verein.html">Der Verein</a>
+        <a href="verein.html">Der Verein</a>
         <a href="#vorstand">Der Vorstand</a>
         <a href="#anlage">Tennisanlage</a>
-        <a href="sites/antragBeitrag.html">Mitgliederantrag/-Beitrag</a>
+        <a href="antragBeitrag.html">Mitgliederantrag/-Beitrag</a>
         <a href="#training">Trainingsplan</a>
         <div class="dropdown">
           <button class="dropbtn">Mannschaften
@@ -22,10 +17,5 @@
             <a href="#">Jugend</a>
           </div>
         </div>
-      </div>
-    <div class="main">
-        <h1>Die neue Website des TC Schneverdingens</h1>
     </div>
-    
-</body>
-</html>
+`);
