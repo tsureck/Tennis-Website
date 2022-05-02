@@ -11,7 +11,7 @@ document.write(`
           <button class="dropbtn">Mannschaften
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">1
+          <div class="dropdown-content">
             <a href="#">Herren</a>
             <a href="#">Damen</a>
             <a href="#">Jugend</a>
