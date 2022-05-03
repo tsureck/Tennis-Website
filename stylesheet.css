@@ -155,7 +155,7 @@ body {
 .styled-table th.firstElem,
 .styled-table td.firstElem {
     padding: 9px 15px;
-    width: 475px;
+    width: 400px;
 }
 
 .styled-table tbody tr {
