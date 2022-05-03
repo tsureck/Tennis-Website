@@ -35,11 +35,11 @@ body {
 .footer{
   position: fixed;
   bottom: 0;
-  left: 20vw;
-  right: 0;
+  left: 15vw;
+  /* right: 20vw; */
   background-color: rgb(255, 255, 255);
   height: auto;
-  width: 50vw;
+  width: 70vw;
   padding-top: 0px;
   color: #000000;
   border-top: 0.5mm solid #000000;
@@ -114,8 +114,8 @@ body {
 }
 
 .main {
-  /* margin-left: 400px; */
-  margin-left: 20vw;
+  margin-left: 400px;
+  /* margin-left: 20vw; */
   margin-top: 40px;
   margin-right: 30vw;
 }
@@ -130,12 +130,12 @@ body {
 }
 
 .styled-table {
-  width: 60%;
+  width: 95%;
   border-collapse: collapse;
   margin: 25px 20px;
   font-size: 0.9em;
   font-family: sans-serif;
-  min-width: 800px;
+  /* min-width: 50vw; */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
